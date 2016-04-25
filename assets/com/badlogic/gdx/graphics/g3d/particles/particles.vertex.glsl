@@ -1,14 +1,3 @@
-#ifdef GL_ES 
-#define LOWP lowp
-#define MED mediump
-#define HIGH highp
-precision mediump float;
-#else
-#define MED
-#define LOWP
-#define HIGH
-#endif
-
 #ifdef billboard
 //Billboard particles
 //In
@@ -18,7 +7,7 @@ attribute vec4 a_sizeAndRotation;
 attribute vec4 a_color;
 
 //out
-varying MED vec2 v_texCoords0;
+varying vec2 v_texCoords0;
 varying vec4 v_color;
 
 //Camera
@@ -83,7 +72,7 @@ attribute vec4 a_region;
 //out
 varying vec4 v_color;
 varying mat2 v_rotation;
-varying MED vec4 v_region;
+varying vec4 v_region;
 varying vec2 v_uvRegionCenter;
 
 //Camera

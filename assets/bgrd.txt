@@ -1,0 +1,60 @@
+bgrd.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bgd
+  rotate: false
+  xy: 2, 2
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+canopy
+  rotate: false
+  xy: 14, 2
+  size: 1689, 244
+  orig: 1689, 244
+  offset: 0, 0
+  index: -1
+ozone
+  rotate: false
+  xy: 2, 248
+  size: 1738, 20
+  orig: 1738, 20
+  offset: 0, 0
+  index: -1
+pebbles
+  rotate: false
+  xy: 2, 270
+  size: 1620, 360
+  orig: 1620, 360
+  offset: 0, 0
+  index: -1
+pond
+  rotate: false
+  xy: 2, 632
+  size: 1728, 25
+  orig: 1728, 25
+  offset: 0, 0
+  index: -1
+rocks
+  rotate: false
+  xy: 2, 659
+  size: 1730, 123
+  orig: 1730, 123
+  offset: 0, 0
+  index: -1
+surface
+  rotate: false
+  xy: 2, 784
+  size: 1740, 148
+  orig: 1740, 148
+  offset: 0, 0
+  index: -1
+water
+  rotate: false
+  xy: 1744, 784
+  size: 3, 100
+  orig: 3, 100
+  offset: 0, 0
+  index: -1
