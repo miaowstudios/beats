@@ -12,4 +12,7 @@
 	<set-configuration-property name="devModeRedirectEnabled" value="true"/>
 	
 	<set-configuration-property name="gdx.assetpath" value="../android/assets" />
+	
+	<extend-configuration-property name="gdx.reflect.include" value="com.miaow.frog.Map" />
+	
 </module>

@@ -8,4 +8,7 @@
 	<entry-point class='com.miaow.frog.client.HtmlLauncher' />
 	
 	<set-configuration-property name="gdx.assetpath" value="../android/assets" />
+	
+	<extend-configuration-property name="gdx.reflect.include" value="com.miaow.frog.Map" />
+	
 </module>
